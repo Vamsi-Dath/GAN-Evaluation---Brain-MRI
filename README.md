@@ -8,20 +8,28 @@ In a developing Nation like India Medical Image samples are often less in number
 
 A normal ML has only one Neural Network .But Gans consist of two neural networks
 
-GENERATOR Model that is used to generate new plausible examples from the problem domain.
-
-DISCRIMINATOR Model that is used to classify examples as real (from the domain) or fake (generated).
+<ol>
+  <li>GENERATOR Model that is used to generate new plausible examples from the problem domain.</li>
+  <li>DISCRIMINATOR Model that is used to classify examples as real (from the domain) or fake (generated).</li>
+</ol>
 
 ## Trainig a gan on Brain MRI dataset
 Input:
 
-nonDem40 jpg_resized mildDem700 jpg_resized
+![inp 1](https://github.com/user-attachments/assets/1ea17b46-efb6-4316-a16a-c74fa6d5b95a) ![inp 2](https://github.com/user-attachments/assets/d65fa97b-f137-4080-a752-daf58b73f0e9)
+
 
 Output:
 
-testing_18 testing_56
+![out 1](https://github.com/user-attachments/assets/d02f3bcb-33d7-41b7-a4ea-ff230fe754e7) ![out 2](https://github.com/user-attachments/assets/e2a86812-0431-4b54-8e1b-81d148abb278)
 
 ## Advantages
-Cross modality image synthesis and image fusion. images from CT, PET, and MR images differ from each other in terms of complexity and dimensionality to incorporate modalityspecific information which ultimately assists in better diagnosis. However, these diversities create a major constrain when it comes to cross-modality image synthesis. For instance, hybrid imaging involves simultaneous imaging from two modalities like MRI/PET, CT/PET imaging. The extraction of information of one modality from the hybrid images is usually a tough exercise.
-Reduced radiation dose with minimal loss of image quality in radiation dependent imaging modalities.
-Overall Cost effectivity
+<ul>
+  <li>Cross modality image synthesis and image fusion. images from CT, PET, and MR images differ from each other in terms of complexity and dimensionality to incorporate modalityspecific information which ultimately assists in better diagnosis. However, these diversities create a major constrain when it comes to cross-modality image synthesis. For instance, hybrid imaging involves simultaneous imaging from two modalities like MRI/PET, CT/PET imaging. The extraction of information of one modality from the hybrid images is usually a tough exercise.
+  </li>
+  <li>Reduced radiation dose with minimal loss of image quality in radiation dependent imaging modalities.
+  </li>
+  <li>Overall Cost effectivity
+  </li>
+</ul>
+
