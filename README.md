@@ -1,7 +1,7 @@
 # Problem
 In a developing Nation like India Medical Image samples are often less in number than required for various research and clinical studies. Small data sets are major obstacles, in particular for supervised machine learning. To overcome this hurdle, some efforts have turned to the augmentation of existing data.
 
-## Gan Architecture
+## GAN Architecture
 ![Typical-structure-of-vanilla-GAN](https://github.com/user-attachments/assets/c5ff8ff9-3716-4b9b-b089-74986d6f490a)
 
 
@@ -32,4 +32,7 @@ Output:
   <li>Overall Cost effectivity
   </li>
 </ul>
+
+## GAN Evaluation Metrics
+Inception Score (IS), Fréchet Inception Distance (FID), Largest Inception Distance (LID), Precision and Recall for Distributions (PRD), Geometric Score (GS) etc.
 
